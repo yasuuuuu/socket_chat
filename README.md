@@ -9,7 +9,7 @@ Simple chat
 
 ***DEMO:***
 
-![Demo](https://image-url.gif)
+![Demo](https://github.com/yasuuuuu/socket_chat/blob/media/demo.gif)
 
 ## Requirement
 
