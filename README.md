@@ -1,8 +1,5 @@
 # socket_chat
 
-![Badge Status](https://ci-as-a-service)
-
-
 ## Description
 
 Simple chat
