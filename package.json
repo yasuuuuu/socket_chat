@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "jquery": "^3.2.1",
+    "mime": "^2.0.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "webpack": "^3.7.1"
+  },
+  "scripts": {
+    "test": "eslint server.js lib/ public/js/",
+    "start": "node -r babel-register ./server.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
